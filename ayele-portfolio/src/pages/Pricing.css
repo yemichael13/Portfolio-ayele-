@@ -1,0 +1,77 @@
+.price-full{
+    margin-top: 5rem;
+    align-items: center;
+    text-align: center;
+    padding: 3rem 5rem;
+}
+.price-text h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3rem;
+}
+.price-para {
+    padding: 0 10rem;
+}
+.price-para p{
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.prices{
+    display: flex;
+    justify-content: space-around;
+
+}
+.prices h2{
+    font-size: 2rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.prices h1{
+    font-size: 3rem;
+    
+}
+.prices p{
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.price{
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 3rem 5rem;
+    text-align: center;
+    margin: 0 3rem;
+}
+
+.price-select{
+    align-items: center;
+    background-color: #8296fb;
+    padding: 3rem 5rem;
+    text-align: center;
+    color: white;
+}
+.price a{
+    text-decoration: none;
+    background-color: #8296fb;
+    color: white;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    font-weight: 500;
+}
+.price a:hover{
+    color: #8296fb;
+    background-color: white;
+    border: 0.05rem solid #8296fb;
+    transition: 0.3s ease;
+}
+.price-select a{
+    text-decoration: none;
+    background-color: white;
+    color: #8296fb;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    font-weight: 500;
+}
+.price-select a:hover{
+    color: white;
+    background-color: #5c77fc;
+    border: 0.05rem solid white;
+    transition: 0.3s ease;
+}

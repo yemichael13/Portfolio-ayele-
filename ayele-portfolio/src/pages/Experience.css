@@ -1,0 +1,105 @@
+
+.research-desc{
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 5rem;
+}
+.research-desc h1{
+    font-size: 2.5rem;
+}
+.para{
+    
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.25rem;
+    align-items: center;
+}
+.grids{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1rem;
+}
+.grid{
+    border: none;
+    background-color: #e6eaff;
+    text-align: center;
+    padding: 3rem;
+    height: 30rem;
+    border-radius: 0.5rem;
+}
+.grid:hover{
+    border: 0.075rem solid #9daefb;
+    transition: 0.3s ease;
+}
+.grid p{
+    line-height: 1.5rem;
+}
+.duration{
+    color: #6580f4;
+}
+.research-desc-2{
+    background-color: #e6eaff;
+    align-items: center;
+    text-align: center;
+    padding: 5rem;
+    margin-top: 3rem;
+}
+.research-desc-2 h1{
+    font-size: 3rem;
+}
+.research-desc-2-para{
+    padding: 0 5rem;
+    align-items: center;
+    text-align: center;
+    font-size: 1.25rem;
+    
+}
+.boxes-1{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.boxes-2{
+    display: flex;
+    justify-content: space-around;
+}
+.box{
+    border: 0.075rem solid #6580f4;
+    margin: 2rem;
+    height: 20rem;
+    width: 40rem;
+    padding: 2rem;
+    align-items: center;
+    
+    
+}
+.box h2{
+    font-size: 2rem;
+}
+.box a{
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: #6580f4;
+    position: relative;
+}
+.box a::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    display: block;
+    margin-top: 5px;
+    right: 0;
+    background: #6580f4;
+    transition: width 0.3s ease;
+    -webkit-transition: width 0.3s ease;
+
+}
+.box a:hover::after{
+    width: 100%;
+    left: 0;
+    background: #6580f4;
+}
